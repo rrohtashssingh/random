@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(10, 10, 111);
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    position:fixed;
+    top:0;
+    width:100%;
+    left:0;
+    display: flex;
+    justify-content: space-around;
+    height: 64px;
+    background-color: rgb(6, 6, 72);
+}
+
+nav ul {
+    display: flex;
+}
+
+.left {
+    font-size: 2.0rem;
+    margin: 10px;
+}
+
+nav ul li {
+    margin: 23px;
+    font-size: 18px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(122, 122, 221);
+    border: 2px solid rgb(122, 122, 221);
+    border-radius: 2px;
+    padding: 2px 0px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0px;
+    align-items: center;
+}
+
+.first>div {
+    width: 29%;
+}
+
+.leftSection {
+    font-size: 2.8rem;
+
+}
+
+.rightSection img {
+    width: 80%;
+
+}
+
+#element {
+    color: rgb(155, 78, 227);
+}
+
+.purple {
+    color: rgb(155, 78, 227);
+}
+
+.red {
+    color: rgb(231, 35, 35);
+}
+
+main hr {
+    margin: 40px 80px;
+    border: 1px solid #2525b5;
+    display: flex;
+    justify-content: center;
+}
+
+.secondSection {
+    max-width: 60vw;
+    margin: auto;
+    height: 80vh;
+}
+
+
+footer {
+    background-color: rgb(77, 29, 168);
+    color: white;
+    position: relative;
+    
+}
+footer.footer a {
+color:white;
+text-decoration: none; 
+list-style: none;
+}
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.rights{
+    text-align: center;
+    padding:20px;
+}
